@@ -87,6 +87,7 @@ p {
     border: 5px solid #cccccc7a;
 }
 
+
 .galeria {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -131,8 +132,16 @@ p {
 
 .btn-primary {
     margin-top: 20px;
-    
+    background-color: #191919;
+    border-color: #191919;
+    color: white;
 
+}
+
+.btn-primary:hover {
+    color: #cccccc7a;
+    background-color: #191919;
+    border-color: #191919;;
 }
 
 /* FOOTER */
