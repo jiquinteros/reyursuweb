@@ -1,0 +1,198 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* FONT */
+@font-face {
+    font-family: 'bebas-naue';
+    src: url(../assets/fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url(../assets/fonts/Roboto-Regular.ttf);
+}
+
+/* HEADER */
+
+nav {
+    background-color: #191919;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav__brand, .nav-link {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    font-family: 'bebas-naue';
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+nav a:hover{
+    color: #cccccc7a;
+    font-size: 35px;
+    transition: .3s;
+}
+
+h1 {
+    font-family: 'bebas-naue';
+    text-align: center;
+    margin-top: 10px;
+    font-size: 70px;
+    color: black;
+}
+
+/* MAIN */
+
+.cards {
+    padding: 20px;
+}
+
+.card {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    border: 2px solid #cccccc7a;
+}
+
+h2 {
+    font-family: 'roboto';
+    text-align: start;
+    font-size: 50px;
+    margin: 10px;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'roboto';
+    margin: 10px;
+    padding: 5px;
+}
+
+.rey-container, .ursu-container {
+    display: flex;
+    padding: 10px;
+    border: 5px solid #cccccc7a;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.galeria img {
+    border: 1px solid #cccccc7a;
+    padding: 10px;
+    width: 70%;
+    margin-left: 20px;
+}
+
+.galeria img:hover {
+    background-color: #191919;
+    transition: .3s;
+    transform: scale(1.1);
+}
+
+.videos {
+    display: grid;
+    grid-row: span 2;
+    padding: 10px;
+}
+
+/* FORMULARIO CON BOOTSTRAP */
+
+
+.formulario {
+    font-size: 16px;
+    font-family: 'bebas-naue';
+    margin: 50px;
+    margin-top: 20px;
+    width: 50%;
+    height: 600px;
+    padding: 20px;
+}
+
+.mb-3 {
+    margin-top: 20px;
+}
+
+.btn-primary {
+    margin-top: 20px;
+    
+
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #191919;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+footer p {
+    font-family: 'bebas-naue';
+    color: white;
+    flex: 1;
+}
+
+footer img {
+    width: 25px;
+    object-fit:contain;
+    margin-left: 15px;
+}
+
+/* MEDIAQUERIES */
+
+@media only screen and (max-width: 900px) {
+    .rey-container, .imgrey, .ursu-container, .imgursu {
+        position: static;
+        margin: 10px;
+        flex-direction: column;
+        object-fit: cover;
+        justify-content: center;
+        
+    }
+
+}
+
+@media only screen and (max-width: 590px) {
+    .rey-container, .imgrey, .ursu-container, .imgursu {
+        position: static;
+        margin: 10px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        object-fit: cover;
+        font-size: 16px;
+        
+    }
+
+@media only screen and (max-width: 500px) {
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+        }
+    }
+    
+
