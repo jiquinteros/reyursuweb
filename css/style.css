@@ -60,7 +60,7 @@ h1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 40px;
+    padding: 50px;
 }
 
 .img-ursu:hover {
@@ -227,7 +227,7 @@ footer img {
 /* MEDIAQUERIES */
 
 @media only screen and (max-width: 900px) {
-    .rey-container, .imgrey, .ursu-container, .imgursu {
+    .rey-container, .imgrey, .ursu-container, .imgursu{
         position: static;
         margin: 10px;
         flex-direction: column;
@@ -239,7 +239,7 @@ footer img {
 }
 
 @media only screen and (max-width: 590px) {
-    .rey-container, .imgrey, .ursu-container, .imgursu {
+    .rey-container, .imgrey, .ursu-container, .imgursu{
         position: static;
         margin: 10px;
         flex-direction: column;
