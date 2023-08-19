@@ -63,6 +63,65 @@ h1 {
     padding: 40px;
 }
 
+.img-ursu:hover {
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.img-rey:hover {
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.img-rey {
+    position: relative;
+    display: inline-block;
+}
+
+.img-text {
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: transparent; 
+    color: white;
+    font-family: 'bebas-naue';
+    font-size: 90px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 0.3s;
+}
+
+.img-rey:hover .img-text {
+    opacity: 1;
+}
+
+.img-ursu {
+    position: relative;
+    display: inline-block;
+}
+
+.img-text {
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: transparent; 
+    color: white;
+    font-family: 'bebas-naue';
+    font-size: 90px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 0.3s;
+}
+
+.img-ursu:hover .img-text {
+    opacity: 1;
+}
 
 h2 {
     font-family: 'roboto';
