@@ -56,6 +56,12 @@ h1 {
 
 /* MAIN */
 
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
 
 
 h2 {
