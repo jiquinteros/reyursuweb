@@ -56,16 +56,7 @@ h1 {
 
 /* MAIN */
 
-.cards {
-    padding: 20px;
-}
 
-.card {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    border: 2px solid #cccccc7a;
-}
 
 h2 {
     font-family: 'roboto';
