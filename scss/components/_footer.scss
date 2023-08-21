@@ -1,0 +1,22 @@
+@mixin footer ($textalign, $justify, $align) {
+    display: flex;
+    text-align: $textalign;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+footer {
+    background-color: $color_primary;
+    padding: 20px;
+    @include footer(left, space-between, center);
+    p {
+        font-family: 'bebas-naue';
+        color: $color-secondary;
+        flex: 1;
+    }
+    img {
+        width: 25px;
+        object-fit:contain;
+        margin-left: 15px;
+    }
+}

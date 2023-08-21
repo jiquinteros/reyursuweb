@@ -1,0 +1,23 @@
+nav {
+    background-color: $color_primary;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    li {
+        list-style-type: none;
+    }
+    .nav__brand, .nav-link {
+        font-size: 30px;
+        color: $color-secondary;
+        text-decoration: none;
+        font-family: 'bebas-naue';
+    }
+    .nav-list {
+        display: flex;
+        gap: 40px;
+    }
+    & a:hover{
+        color: $color-tertiary;
+        transition: .3s;
+    }
+}

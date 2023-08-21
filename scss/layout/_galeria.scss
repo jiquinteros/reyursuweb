@@ -1,0 +1,16 @@
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+    & img:hover {
+        transition: .3s;
+        transform: scale(1.1);
+    }
+}
+
+.videos {
+    display: grid;
+    grid-row: span 2;
+    padding: 10px;
+}
